@@ -10,7 +10,8 @@ public class Main {
         Person person2=new Person(new FrontOfStageTicket("Queen", LocalDateTime.now(),30000,"#54256"));
         Concert concert= new Concert();
 
-        concert.addPerson(person, LocalTime.of(15,40));
+        concert.addPerson(person, LocalTime.of(16,40));
+        System.out.println("OK");
         concert.addPerson(person2, LocalTime.of(11,40));
 
     }
